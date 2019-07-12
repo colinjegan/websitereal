@@ -12,7 +12,7 @@ h1{
   font-family: 'Rosarivo',serif;
   font-weight: lighter;
   margin-bottom: -3rem;
-  font-size: calc(60px + (80 - 60 ) *
+  font-size: calc(50px + (80 - 55) *
   ((100vw - 500px) / (1300-500)));
 }
 h2{
@@ -78,11 +78,12 @@ a:link{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  top: 3.5rem;
+  top: 4.5rem;
   left: 10rem;
   width: 50rem;
   max-width: 90vw;
   z-index: 6;
+  color: white;
 }
 #irishsymbol{
   height: 5.5rem;
@@ -105,7 +106,7 @@ a:link{
 #contact{
   margin-right: 2rem;
 }
-#swisslandscape{
+#cape{
   width: 100%;
   min-height: 100%;
   height: auto;
@@ -113,6 +114,8 @@ a:link{
   position: absolute;
   margin-bottom: 0;
   z-index:1;
+  position:relative;
+  bottom: 13rem;
 }
 #math{
   width: 27rem;
@@ -120,7 +123,7 @@ a:link{
   border: .6rem solid #36454F;
   border-radius: 2rem;
 }
-#swisslandscapeholder{
+#capeholder{
   overflow: hidden;
   height: 100%;
   width: 100%;
@@ -163,13 +166,7 @@ a:link{
   border-radius: .7rem;
   text-align: center;
 }
-@media (max-width: 800px){
-  .maincontent{
-    margin-left: 5vw;
-    left: 1rem;
-    top: 3.5rem;
-  }
-}
+
 @media (max-width: 980px){
   #math{
     display: none;
@@ -180,5 +177,36 @@ a:link{
   }
   #horizontaline{
     width: 16%;
+  }
+
+}
+@media (max-width: 1100px){
+  #cape{
+    width: 1000px;
+}
+
+
+}
+@media (max-width: 1100px){
+  .maincontent{
+
+
+  }
+}
+@media (max-width: 800px){
+  #cape{
+    right: 20rem;
+    bottom: 5rem;
+  }
+  .maincontent{
+    text-align: center;
+    width: 90vw;
+    max-width: 60rem;
+    align-items: center;
+    top: 10rem;
+    
+    margin-left: 0;
+    margin-right: 0;
+    left: 2rem;
   }
 }
