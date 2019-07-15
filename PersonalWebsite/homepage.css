@@ -21,6 +21,9 @@ h3{
   font-family: 'Rosario',sans-serif;
   margin-left: .5rem;
 }
+a:link,a:visited{
+  text-decoration: none;
+  color:#36454F;}
 p{
   font-family: 'Rosario',sans-serif;
 }
@@ -28,6 +31,8 @@ h2{
 
 }
 nav{
+  box-shadow: .5rem 0 #36454F;
+
 
 }
 a:link{
@@ -49,6 +54,7 @@ a:link{
   background-color: #DEE8CF;
   position: fixed;
   z-index: 500;
+  border-bottom: .07rem solid #D0DBBF;
 
 }
 .subdivnav{
@@ -88,8 +94,8 @@ a:link{
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 4rem;
-  left: 13rem;
+  top: 20vh;
+  left: 6vw;
   width: 50rem;
 }
 #about{

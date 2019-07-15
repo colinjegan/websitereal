@@ -15,6 +15,9 @@ h1{
   font-size: calc(50px + (80 - 55) *
   ((100vw - 500px) / (1300-500)));
 }
+a:link,a:visited{
+  text-decoration: none;
+  color:#36454F;}
 h2{
   font-family: 'Rosarivo',serif;
   font-weight: lighter;
@@ -78,7 +81,7 @@ a:link{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  top: 4.5rem;
+  top: 8vh;
   left: 10rem;
   width: 50rem;
   max-width: 90vw;
@@ -99,12 +102,20 @@ a:link{
   background-color: #DEE8CF;
   position: fixed;
   z-index: 900;
+  border-bottom: .07rem solid #D0DBBF;
 }
 #essays{
   margin-right: 0rem;
 }
 #contact{
   margin-right: 2rem;
+}
+#capeholder{
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
 }
 #cape{
   width: 100%;
@@ -122,13 +133,6 @@ a:link{
   height: 27rem;
   border: .6rem solid #36454F;
   border-radius: 2rem;
-}
-#capeholder{
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  margin: 0;
 }
 #subjsmill{
   display: flex;
@@ -166,6 +170,8 @@ a:link{
   border-radius: .7rem;
   text-align: center;
 }
+@media (min-height: )
+
 
 @media (max-width: 980px){
   #math{
@@ -204,9 +210,33 @@ a:link{
     max-width: 60rem;
     align-items: center;
     top: 10rem;
-    
+
     margin-left: 0;
     margin-right: 0;
     left: 2rem;
   }
+}
+@media (min-width: 1800px){
+  .maincontent{
+    top:17rem;
+    left: 15rem;
+    width: 60rem;
+}
+h1{
+  font-family: 'Rosarivo',serif;
+  font-weight: lighter;
+  width: 60rem;
+  font-size: calc(50px + (120 - 50) *
+  ((100vw - 500px) / (1920-500)));
+}
+
+h3{
+  font-size: 2.75rem;
+  font-weight: lighter;
+  font-family: 'Rosario',sans-serif;
+  margin-left: .5rem;
+  font-size: calc(22px + (35 - 22) *
+  ((100vw - 500px) / (1920 -
+    500)));
+}
 }

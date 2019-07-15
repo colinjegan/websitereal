@@ -20,6 +20,9 @@ h2{
   font-weight: lighter;
   font-size: 5rem;
 }
+nav{
+    box-shadow: 20rem 0 2rem grey;
+}
 h3{
   font-size: 2.75rem;
   font-weight: lighter;
@@ -98,6 +101,7 @@ a:link{
   background-color: #DEE8CF;
   position: fixed;
   z-index: 900;
+  border-bottom: .07rem solid #D0DBBF;
 }
 #essays{
   margin-right: 0rem;

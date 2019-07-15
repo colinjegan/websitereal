@@ -49,6 +49,7 @@ a:link{
   background-color: #DEE8CF;
   position: fixed;
   z-index: 500;
+  border-bottom: .07rem solid #D0DBBF;
 
 }
 .subdivnav{
@@ -84,11 +85,15 @@ a:link{
   margin: 0;
 
 }
+a:link,a:visited{
+  text-decoration: none;
+  color:#36454F;}
+
 .maincontent{
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 6rem;
+  bottom: 48vh;
   left: 13rem;
 
   width: 50rem;
